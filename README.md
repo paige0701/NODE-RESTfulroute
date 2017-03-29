@@ -1,11 +1,66 @@
 # NODE-RESTfulroute
 
-name              url               verb            desc                               mongoose method
-====================================================================================================================
-INDEX            /dogs              GET            Display a list of all dog           Dog.find()
-NEW              /dogs/new          GET            Displays form to make a new dog     N/A
-CREATE           /dogs              POST           Add new dog to DB                   Dog.create()
-SHOW             /dogs/:id          GET            Shows info about one specific dog   Dog.findById()
-EDIT             /dogs/:id/edit     POST           Show edit form for one dog          Dog.findById()
-UPDATE           /dogs/:id          PUT            Update a particular dog             Dog.findByIdAndUpdate()
-DESTROY          /dogs/:id          DELETE         Delete a particular dog             Dog.findByIdAndRemove()
+
+<table>
+  <tr>
+    <td>Name</td>
+    <td>URL</td>
+    <td>VERB</td>
+    <td>DESC</td>
+    <td>Moongoose method</td>    
+  </tr>
+  <tr>
+    <td>Index</td>
+    <td>/dogs</td>
+    <td>GET</td>
+    <td>Display a list of all dog</td>
+    <td>Dog.find()</td>    
+  </tr>
+  
+  <tr>
+    <td>New</td>
+    <td>/dogs/new</td>
+    <td>GET</td>
+    <td>Displays form to make a new dog</td>
+    <td>N/A</td>    
+  </tr>
+  <tr>
+    <td>Create</td>
+    <td>/dogs/new</td>
+    <td>post</td>
+    <td>create a new dog</td>
+    <td>Dog.create()</td>    
+  </tr>
+  <tr>
+    <td>Show</td>
+    <td>/dogs/:id</td>
+    <td>Get</td>
+    <td>Shows info about one specific dog</td>
+    <td>Dog.findById()</td>    
+  </tr>
+  <tr>
+    <td>EDIT</td>
+    <td> /dogs/:id/edit</td>
+    <td>POST</td>
+    <td>Show edit form for one dog</td>
+    <td>Dog.findById()</td>    
+  </tr>
+  <tr>
+    <td>UPDATE</td>
+    <td>/dogs/:id</td>
+    <td>PUT</td>
+    <td>Update a particular dog</td>
+    <td>Dog.findByIdAndUpdate()</td>    
+  </tr>
+  <tr>
+    <td>DESTROY</td>
+    <td>/dogs/:id </td>
+    <td>DELETE</td>
+    <td>Delete a particular dog</td>
+    <td>Dog.findByIdAndRemove()</td>    
+  </tr>
+  
+</table>
+
+
+
