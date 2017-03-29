@@ -26,7 +26,7 @@
   </tr>
   <tr>
     <td>Create</td>
-    <td>/dogs/new</td>
+    <td>/dogs</td>
     <td>post</td>
     <td>create a new dog</td>
     <td>Dog.create()</td>    
